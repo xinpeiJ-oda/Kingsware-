@@ -1,0 +1,118 @@
+{
+    "title":"脚本向导开发编程指南",
+	"description":"编程指南",
+	"author":"金智维",
+	"language":"zh-hans",
+	"pdf": {
+        "fontSize": 16
+    },
+	"plugins": [
+		"theme-comscore",
+		"pageview-count",
+		"-chapter-fold",
+		"-expandable-chapters-small",
+		"expandable-chapters",
+		"hide-element",
+		"search-pro",
+		"insert-logo",
+		"lightbox",
+		"splitter",
+		"code",
+		"my-toolbar",
+		"alerts",
+		"mermaid-gb3",
+		"-anchor-navigation-ex",
+		"-sharing",
+		"-font-settings",
+		"-image-captions",
+		"back-to-top-button"
+	],
+	"pluginsConfig": {
+		"hide-element": {
+			"elements": [ ".gitbook-link", ".copyright" ]
+
+		},
+		"-sharing": {
+			"douban": false,
+			"facebook": false,
+			"google": false,
+			"hatenaBookmark": false,
+			"instapaper": false,
+			"line": false,
+			"linkedin": false,
+			"messenger": false,
+			"pocket": false,
+			"qq": false,
+			"qzone": false,
+			"stumbleupon": false,
+			"twitter": false,
+			"viber": false,
+			"vk": false,
+			"weibo": false,
+			"whatsapp": false,
+			"all": [
+				"weibo",
+				"qzone"
+			]
+		},
+		"insert-logo": {
+			"url": "/logo.png",
+			"style": "background: none; max-height: 80px; min-height: 30px"
+		},
+		"my-toolbar": {
+			"buttons": [
+				{
+					"label": "下载PDF",
+					"icon": "fa fa-file-pdf-o",
+					"url": "http://doc.kingsware.cn:8096/public/Uploads/Doc/F7A6081D43A5C892496DC39175F7DF7B/D7A5D76F4E0CC98A0D696AA3AB0C00C3.pdf",
+					"position": "left",
+					"text": "下载PDF",
+					"target": "_blank"
+				}
+			]
+		},
+		"image-captions": {
+			"caption": "Image - _CAPTION_"
+		},
+		"anchor-navigation-ex": {
+			"showLevel": false,
+			"showGoTop": true
+		},
+		"sitemap-general": {
+			"prefix": "https://www.mapull.com/gitbook/comscore/"
+		},
+		"flexible-alerts": {
+			"note": {
+				"label": {
+					"de": "Hinweis",
+					"en": "Note"
+				}
+			},
+			"tip": {
+				"label": {
+					"de": "Tipp",
+					"en": "Tip"
+				}
+			},
+			"warning": {
+				"label": {
+					"de": "Warnung",
+					"en": "Warning"
+				}
+			},
+			"danger": {
+				"label": {
+					"de": "Achtung",
+					"en": "Attention"
+				}
+			},
+			"comment": {
+				"label": "Comment",
+				"icon": "fa fa-comments",
+				"className": "info"
+			}
+
+		}
+
+	}
+}
