@@ -1,28 +1,14 @@
-### 查看流程执行情况
-
-待流程执行完成后，可在【流程管理】下的【今日流程】或者【执行历史】菜单中，查看流程执行情况。现以查看流程的执行历史为例：
-
-1. 在【流程管理】-【流程管控】栏中，单击【执行历史】，进入【执行历史】界面。
-
-   ![image-20230601145333709](Preview.assets/image-20230601145333709.png)
-
-   ![image-20230601145844189](Preview.assets/image-20230601145844189.png)
-
-2. 在【执行历史】界面，可根据条件查询流程执行情况。
-
-   ![image-20230601150004088](Preview.assets/image-20230601150004088.png)
-
 ### Viewing Process Execution Status
 
-After the process execution is complete, you can view the process execution status in the 【Today's Process】 or 【Execution History】 menu under 【Process Management】. Here is an example of viewing the execution history of a process:
+After the process execution is complete, you can view the process execution status in the 【Today's Process】 or 【Process History】 menu under 【Process Management】. Here is an example of viewing the execution history of a process:
 
-1. In 【Process Management】 - 【Process Control】, click 【Execution History】 to enter the 【Execution History】 interface.
+1. In 【Process Management】 - 【Process Control】, click 【Process History】 to enter the 【Process History】 interface.
 
    ![image-20230601145333709](Preview.assets/image-20230601145333709.png)
 
    ![image-20230601145844189](Preview.assets/image-20230601145844189.png)
 
-2. In the 【Execution History】 interface, you can query the process execution status based on specific conditions.
+2. In the 【Process History】 interface, you can query the process execution status based on specific conditions.
 
    ![image-20230601150004088](Preview.assets/image-20230601150004088.png)
 

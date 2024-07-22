@@ -1,12 +1,12 @@
-# PDF自动化
+# PDF Automation
 
-## PDF化基本介绍<span id ="pdf自动化基本介绍"></span>
+## Introduction to PDF Automation<span id ="introduction-to-pdf-automation"></span>
 
-K-PRA支持对PDF文件的操作包括以下：
+K-PRA supports the following operations to PDF files：
 
 ![image-20240322141316381](PDF.assets/image-20240322141316381.png)
 
-注意：使用PDF相关命令需要先安装“PDF插件”。
+Note：Using PDF commands requires the installation of “PDF plug-in”。
 
 ![image-20240322141414728](PDF.assets/image-20240322141414728.png)
 

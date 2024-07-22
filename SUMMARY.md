@@ -214,7 +214,7 @@
         * [Setting Process Properties](流程设计/Flowchart.md#setting-process-properties)
             * [Entire Process](流程设计/Flowchart.md#entire-process)
             * [Process Nodes](流程设计/Flowchart.md#process-nodes)
-            * [Process Lines](流程设计/Flowchart.md#process-lines)
+            * [Process Connection](流程设计/Flowchart.md#process-connection)
         * [Process Execution](流程设计/Flowchart.md#process-execution)
             * [Single Machine Process Execution](流程设计/Flowchart.md#single-machine-process-execution)
             * [Multi-Robot Collaborative Process](流程设计/Flowchart.md#multi-robot-collaborative-process)
