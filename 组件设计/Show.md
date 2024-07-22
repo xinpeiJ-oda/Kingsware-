@@ -33,3 +33,39 @@
 “中文格式”页面，如下图所示：
 
 ![image-20230306140822358](Show.assets/image-20230306140822358.png)
+
+## Component Display
+
+In the [Component Management] - Script Wizard Edit page, users can view the current script wizard code information through three subpages: Visualization, Source Code, and Chinese Format. The Visualization page is the main development interface of the script wizard.
+
+### Visualization<span id="visualization"></span>
+
+When adding a "Script Wizard" type component in the [Component Management] page and entering the script wizard edit page, the default display is the "Visualization" subpage. On this page, you can perform functions such as adding and editing operations.
+
+The "Visualization" page is shown below:
+
+![image-20230306140446574](Show.assets/image-20230306140446574.png)
+
+### Source Code<span id="source-code"></span>
+
+In the "Source Code" page, you can view the source code form of the script wizard component. You can switch to this view by clicking "Source Code" in the script edit page.
+
+> **[warning] Note**
+>
+> <span>&emsp;</span><font color="black">The code on the "Source Code" page cannot be reused in other languages. For example, if you copy the code from this page to an English script edit interface, it will not execute correctly.</font>
+
+The "Source Code" page is shown below:
+
+![image-20230306140652538](Show.assets/image-20230306140652538.png)
+
+### Chinese Format<span id="chinese-format"></span>
+
+The "Chinese Format" page displays the functions added in the script wizard component in the format of Chinese scripts.
+
+> **[warning] Note**
+>
+> <span>&emsp;</span><font color="black">The code on the "Chinese Format" page cannot be directly reused in Chinese scripts. It can only be used to view the corresponding Chinese functions used in the script wizard component.</font>
+
+The "Chinese Format" page is shown below:
+
+![image-20230306140822358](Show.assets/image-20230306140822358.png)

@@ -83,3 +83,80 @@
    使用“移动IMAP邮件信息”函数，在获取到邮件之后（参考10.4.1），将获取到的邮件从“收件箱”移动到“Test”文件夹。
 
    ![image-20220509174503636](IMAP.assets/image-20220509174503636.png)
+   
+## IMAP
+
+### Retrieve IMAP Email Information
+
+![image-20220509173852525](IMAP.assets/image-20220509173852525.png)
+
+![image-20230807093747863](IMAP.assets/image-20230807093747863.png)
+
+1. Common Properties
+
+   - **Email**: The email account used to receive messages.
+   - **Password**: The password for the email account used to receive messages.
+   - **Server**: The email server host to use.
+   - **Port**: The port used to retrieve email messages.
+   - **Specify Sender**: Only retrieve emails from senders specified in this parameter, separated by commas if multiple.
+   - **Specify Subject**: Only retrieve emails with subjects containing the specified topics, separated by commas if multiple.
+   - **Start Time**: Only retrieve emails sent after this time.
+   - **End Time**: Only retrieve emails sent before this time.
+   - **Email Folder**: The folder from which to retrieve emails.
+   - **Proxy Parameters**: Proxy parameters, formatted as “address:port”.
+   - **Delete Information**: Specify whether read messages should be marked for deletion.
+   - **Only Unread Messages**: Whether to only retrieve unread messages; this checkbox is checked by default.
+   - **Mark as Read**: Whether to mark retrieved emails as read; this checkbox is unchecked by default.
+   - **Connection Type**: The type of connection for the mailbox.
+   - **Secure Connection**: Specify SSL or TLS encryption for the connection.
+   - **Top**: The number of emails to retrieve from the top of the list, default is 30.
+   - **Messages**: The collection of email messages retrieved as email message objects.
+
+2. Example Description
+
+   Use the “Retrieve IMAP Email Information” function to collect email messages, and iterate through the emails to extract information such as subject, sender, recipient, date, and email content.
+
+3. Steps
+
+   1. Use the “Retrieve IMAP Email Information” function to configure the relevant information.
+
+      ![image-20220509174116672](IMAP.assets/image-20220509174116672.png)
+
+   2. After configuration, compile, save, and run the program.
+
+      ![image-20220509174136111](IMAP.assets/image-20220509174136111.png)
+
+   3. Run and check the results.
+
+      ![image-20220509174205468](IMAP.assets/image-20220509174205468.png)
+
+### Move IMAP Email Information<span id="move-imap-email-information"></span>
+
+![image-20220509174312689](IMAP.assets/image-20220509174312689.png)
+
+![image-20220509174257574](IMAP.assets/image-20220509174257574.png)
+
+1. Common Properties
+
+   - **Login**:
+     - **Email**: The email account used to move messages.
+     - **Password**: The password for the email account used to move messages.
+
+   - **Mail**:
+     - **Server**: The email server host to use.
+     - **Port**: The port used to retrieve email messages.
+     - **Enable SSL**: Whether to use SSL for sending messages.
+
+   - **Input**:
+     - **Email Message**: The email message object to be moved.
+     - **From Folder**: The folder where the email can be found.
+     - **Email Folder**: The folder to which the email should be moved.
+
+   - **Options**:
+     - **Secure Connection**: Specify SSL or TLS encryption for the connection.
+
+2. Example Description
+
+   Use the “Move IMAP Email Information” function to move emails from the “Inbox” to the “Test” folder after retrieving them (see 10.4.1).
+
+   ![image-20220509174503636](IMAP.assets/image-20220509174503636.png)
