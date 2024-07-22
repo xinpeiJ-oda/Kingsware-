@@ -1,37 +1,3 @@
-## Excel读取操作(基于Workbook文件读写)
-
-### 读取范围<span id ="读取范围"></span>
-
-1. 添加“读取范围”命令（系统-文件-workbook-读取范围），并为输出数据表创建一个变量“Table”。
-
-   常用属性介绍:
-
-   工作簿地址：填写Excel文件的路径。
-
-   工作表名称：填写工作表名称。
-
-   范围: 需要读取的范围，格式（如’A1:E10’）;如果未设值，将会读取整个表格; 如果将范围指定为某个单元格(如：’A2’)，则读取从该单元格开始的整个表格。 
-
-   添加标头：如果选中，将获取指定表格范围的标题。
-
-   ![image-20220509162405382](Workbookread.assets/image-20220509162405382.png)
-
-2. 打印数据查看：添加“输出数据表”命令，选择输入为上一步产生的“Table”，并为输出创建一个变量“str_tmp”，然后用“日志消息”命令打印出str_tmp。
-
-   ![image-20220509162509274](Workbookread.assets/image-20220509162509274.png)
-
-   ![image-20220509162521576](Workbookread.assets/image-20220509162521576.png)
-
-3. 执行结果：
-
-   ![image-20220509162535939](Workbookread.assets/image-20220509162535939.png)
-
-### 其他读取操作<span id ="其他读取操作"></span>
-
-包括读取列、读取单元格、读取单元格公式、读取行等。
-
-![image-20220509162554805](Workbookread.assets/image-20220509162554805.png)
-
 ## Excel Read Operations (Based on Workbook File Read/Write)
 
 ### Read Range <span id="read-range"></span>
@@ -40,10 +6,10 @@
 
    Common attribute descriptions:
 
-   - Workbook Path: Fill in the path of the Excel file.
-   - Worksheet Name: Fill in the name of the worksheet.
+   - WorkbookPath: Fill in the path of the Excel file.
+   - SheetName: Fill in the name of the worksheet.
    - Range: The range to be read, format (e.g., 'A1:E10'); if not set, the entire table will be read; if the range is specified as a single cell (e.g., 'A2'), the entire table starting from that cell will be read.
-   - Add Headers: If checked, the headers of the specified table range will be retrieved.
+   - AddHeaders: If checked, the headers of the specified table range will be retrieved.
 
    ![image-20220509162405382](Workbookread.assets/image-20220509162405382.png)
 

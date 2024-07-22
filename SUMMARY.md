@@ -208,7 +208,7 @@
         * [Visualization](语法设计/Show.md#visualization)
         * [Source Code](语法设计/Show.md#source-code)
         * [Chinese Format](语法设计/Show.md#chinese-format)
-* [流程设计](流程设计/Flowchart.md)
+* [Process Design](流程设计/Flowchart.md)
     * [Process Editing](流程设计/Flowchart.md#process-editing)
         * [Setting Component Parameters](流程设计/Flowchart.md#setting-component-parameters)
         * [Setting Process Properties](流程设计/Flowchart.md#setting-process-properties)

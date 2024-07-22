@@ -1,28 +1,3 @@
-# Excel自动化
-
-## Excel自动化基本介绍<span id ="自动化基本介绍"></span>
-
-Excel自动化主要用于帮助各种类型的企业用户实现Excel数据处理自动化。Excel自动化是可以从单元格、列、行或范围中读取数据，向其他电子表格或工作簿写入数据等活动。通过相关命令，还可以对数据进行排序、进行格式设定或附加其他信息。即使用户的计算机上没有安装Excel,也可以执行部分组件，但更多的数据处理等活动还是需要在安装了应用程序的机器上才能运行。Excel自动化操作的所有活动原则上必须在Excel 应用程序范围内才能工作，CSV操作除外。
-
-RPA操作Excel的两组方法：
-
-1.  基于COM接口：应用程序集成 >  Excel 。
-
-   ![image-20220509161404157](Excel.assets/image-20220509161404157.png)
-
-2. 基于文件读写：系统 > 文件 >  Workbook。
-
-   ![image-20220509161415280](Excel.assets/image-20220509161415280.png)
-
-<span> &emsp;&emsp;</span>使用上的差异:
-
-| 对比项            | 基于COM                                                      | 基于文件读写                         |
-| ----------------- | ------------------------------------------------------------ | ------------------------------------ |
-| 需要安装Excel     | 需要，支持Microsoft Excel和WPS                               | 不需要                               |
-| 需要打开Excel进程 | 需要                                                         | 不需要                               |
-| 处理效率          | 需要打开Excel，数据量大时加载相对慢                          | 效率更快                             |
-| 功能性对比        | 功能更齐全、强大。支持一般读写、格式设置、复杂公式、插件增强公式…… | 支持一般读写、简单格式设置及简单公式 |
-
 # Excel Automation
 
 ## Basic Introduction to Excel Automation <span id="basic-introduction"></span>
@@ -31,7 +6,7 @@ Excel automation is mainly used to help various types of business users achieve 
 
 There are two methods for RPA to operate Excel:
 
-1. Based on the COM interface: Application Integration > Excel.
+1. Based on the COM interface: App Integration > Excel.
 
    ![image-20220509161404157](Excel.assets/image-20220509161404157.png)
 
@@ -41,7 +16,7 @@ There are two methods for RPA to operate Excel:
 
 <span> &emsp;&emsp;</span>Differences in usage:
 
-| Comparison Item       | Based on COM                                              | Based on File Read/Write             |
+|         | Based on COM                                              | Based on File Read/Write             |
 | --------------------- | --------------------------------------------------------- | ------------------------------------ |
 | Requires Excel        | Yes, supports Microsoft Excel and WPS                     | No                                   |
 | Needs to open Excel   | Yes                                                       | No                                   |
