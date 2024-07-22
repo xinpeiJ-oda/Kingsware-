@@ -15,6 +15,26 @@
 4. 流程执行如下图所示：
 
    ![image-20220509150752617](Function.assets/image-20220509150752617.png)
+   
+   
+### Running a Process
+
+1. When the process editing is complete, go to 【Process Review】 to review the process.
+
+   ![image-20230804153444956](Function.assets/image-20230804153444956.png)
+
+2. After the process is reviewed, go to the 【Process Design】 interface, find the reviewed process from step 1, and double-click to enter the process editing interface.
+
+   ![image-20230804153550771](Function.assets/image-20230804153550771.png)
+
+3. In the process editing interface, uncheck 【Design】 to enter the debugging mode, and click 【Execute】 to run the process.
+
+   ![image-20230804153823714](Function.assets/image-20230804153823714.png)
+
+4. The process execution is shown as follows:
+
+   ![image-20220509150752617](Function.assets/image-20220509150752617.png)
+
 
 
 
