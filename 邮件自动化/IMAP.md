@@ -86,7 +86,7 @@
    
 ## IMAP
 
-### Retrieve IMAP Email Information
+### Get IMAP Mail Messages
 
 ![image-20220509173852525](IMAP.assets/image-20220509173852525.png)
 
@@ -114,11 +114,11 @@
 
 2. Example Description
 
-   Use the “Retrieve IMAP Email Information” function to collect email messages, and iterate through the emails to extract information such as subject, sender, recipient, date, and email content.
+   Use the “Get IMAP Mail Messages" function to collect email messages, and iterate through the emails to extract information such as subject, sender, recipient, date, and email content.
 
 3. Steps
 
-   1. Use the “Retrieve IMAP Email Information” function to configure the relevant information.
+   1. Use the “Get IMAP Mail Messages" function to configure the relevant information.
 
       ![image-20220509174116672](IMAP.assets/image-20220509174116672.png)
 
@@ -130,7 +130,7 @@
 
       ![image-20220509174205468](IMAP.assets/image-20220509174205468.png)
 
-### Move IMAP Email Information<span id="move-imap-email-information"></span>
+### Move IMAP Mail Messages<span id="move-imap-email-information"></span>
 
 ![image-20220509174312689](IMAP.assets/image-20220509174312689.png)
 
@@ -157,6 +157,6 @@
 
 2. Example Description
 
-   Use the “Move IMAP Email Information” function to move emails from the “Inbox” to the “Test” folder after retrieving them (see 10.4.1).
+   Use the “Move IMAP Mail Messages function to move emails from the “Inbox” to the “Test” folder after retrieving them (see 10.4.1).
 
    ![image-20220509174503636](IMAP.assets/image-20220509174503636.png)
